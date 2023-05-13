@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="Wrapper_Inheritance_Concept_With_TestNG.CreateLead"/>
+      <class name="Wrapper_Inheritance_Concept_With_TestNG.DuplicateLead"/>
+      <class name="Wrapper_Inheritance_Concept_With_TestNG.EditLead"/> 
+      <class name="Wrapper_Inheritance_Concept_With_TestNG.MergeLead"/>
+      <class name="Wrapper_Inheritance_Concept_With_TestNG.DeleteLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
